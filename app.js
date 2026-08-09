@@ -155,7 +155,6 @@ function renderViewer(){
       <div class="event-card">
         <div class="event-head">
           <h2>${escapeHtml(ev.name)}</h2>
-          <span class="event-unit">${ev.direction === 'asc' ? 'Lowest wins' : 'Highest wins'}</span>
         </div>
         <table class="results"><tbody>${rows}</tbody></table>
       </div>`;
